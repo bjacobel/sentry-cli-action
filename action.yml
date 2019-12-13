@@ -1,12 +1,5 @@
 name: 'sentry-cli-action'
 description: 'Use the getsentry/sentry-cli docker image to run @sentry/cli commands'
-inputs:
-  args:
-    description: 'command arguments'
-    required: true
-    default: '--help'
 runs:
   using: 'docker'
   image: 'docker://getsentry/sentry-cli:1.49'
-  args:
-    - ${{ inputs.args }}
