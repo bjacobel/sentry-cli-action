@@ -3,7 +3,7 @@ description: 'Use the getsentry/sentry-cli docker image to run @sentry/cli comma
 author: Brian Jacobel <bjacobel@gmail.com>
 runs:
   using: 'docker'
-  image: 'docker://getsentry/sentry-cli:1.49'
+  image: 'docker://getsentry/sentry-cli:1.71'
 branding:
   color: red
   icon: alert-triangle
